@@ -1,0 +1,27 @@
+{
+  "name": "unittest-demo",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "bluebird": "^2.9.34",
+    "istanbul": "*",
+    "mocha": "*",
+    "mochawesome": "^2.0.4",
+    "muk": "^0.3.2",
+    "rewire": "^2.3.4",
+    "should": "*",
+    "should-promised": "^0.3.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Jack",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.1",
+    "knex": "^0.12.7",
+    "pg": "^6.1.2",
+    "supertest": "^1.0.1"
+  }
+}
