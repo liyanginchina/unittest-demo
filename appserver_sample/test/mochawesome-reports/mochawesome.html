@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mochawesome Report Card</title>
+    
+    <link rel="stylesheet" href="css/mochawesome.css">
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="report-info-cnt">
+          <h1 class="report-title">test</h1>
+          <h3 class="report-date">Thursday, February 23 2017, 03:45pm</h3>
+        </div>
+        <div class="quick-summary-cnt">
+            <ul class="list-unstyled quick-summary">
+              <li class="qs-item summary-duration" title="Duration">5.143<span>S</span></li>
+              <li class="qs-item summary-suites" title="Suites">11</li>
+              <li class="qs-item summary-tests" title="Tests">14</li>
+              <li class="qs-item summary-passes" title="Passed" data-filter="passed">12</li>
+              <li class="qs-item summary-failures" title="Failed" data-filter="failed">2</li>
+              <li class="qs-item summary-pending" title="Pending" data-filter="pending">0</li>
+            </ul>        </div>
+      </div>
+    </div>
+
+    <!-- Report Summary -->
+    <div class="summary">
+      <div class="container">
+          <div class="row">
+            <div class="summary-col summary-duration">
+              <h1 class="summary-count">5.143<span>S</span></h1>
+              <h4 class="summary-label">S</h4>
+            </div>
+            <div class="summary-col summary-suites" title="Suites">
+              <h1 class="summary-count">11</h1>
+              <h4 class="summary-label">Suites</h4>
+            </div>
+            <div class="summary-col summary-tests" title="Tests">
+              <h1 class="summary-count">14</h1>
+              <h4 class="summary-label">Tests</h4>
+            </div>
+            <div class="summary-col summary-passes" data-filter="passed" title="Passed">
+              <h1 class="summary-count">12</h1>
+              <h4 class="summary-label">Passed</h4>
+            </div>
+            <div class="summary-col summary-failures" data-filter="failed" title="Failed">
+              <h1 class="summary-count">2</h1>
+              <h4 class="summary-label">Failed</h4>
+            </div>
+            <div class="summary-col summary-pending" data-filter="pending" title="Pending">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Pending</h4>
+            </div>
+          </div>      </div>
+    </div>
+    <div class="statusbar">
+      <div class="container">
+          <div class="row">
+            <div class="status-item status-item-pending-pct">0% Pending</div>
+            <div class="status-item status-item-passing-pct success">85.7% Passing</div>
+          </div>      </div>
+    </div>
+
+    <!-- Suites -->
+    <div class="details container">
+            <section class="suite-wrap">
+          <div id="1181cebc-d132-4071-ae81-6df2da1f7fc2" class="suite has-suites">
+            <h3 class="suite-title">usercontroller</h3>
+            <h5 class="suite-filename">\controllertest\usercontroller_improved.test.js</h5>
+        
+              <section class="suite-wrap">
+          <div id="a18181c4-7760-4bb9-b68e-36dafe039297" class="suite has-tests has-passed has-failed">
+            <h3 class="suite-title">sioyeid_login</h3>
+            <h5 class="suite-filename">\controllertest\usercontroller_improved.test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="a18181c4-7760-4bb9-b68e-36dafe039297" class="suite-chart" width="50" height="50" data-total-passes="2" data-total-failures="1" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">16 ms</li>
+                <li class="suite-summary-item tests">3</li>
+                <li class="suite-summary-item passed">2</li>
+                <li class="suite-summary-item failed">1</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#a18181c4-7760-4bb9-b68e-36dafe039297-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="a18181c4-7760-4bb9-b68e-36dafe039297-test-list" class="list-group test-list collapse in">
+                    <div id="4b9b699c-9eec-48e4-b3d3-a3e14309a8bf" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              测试sioeye不存在的情况
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#4b9b699c-9eec-48e4-b3d3-a3e14309a8bf > .test-code.collapse">Code</button>
+              <span class="test-duration fast">13 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">return</span> usercontroller.sioeye_login(<span class="hljs-string">'jack78979798'</span>).should.be.rejectedWith(<span class="hljs-built_in">Error</span>);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="9a5e9db7-5745-42ae-a573-a6a746556099" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              测试sioeye为空字符串的情况
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#9a5e9db7-5745-42ae-a573-a6a746556099 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">2 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">return</span> usercontroller.sioeye_login(<span class="hljs-string">''</span>).should.be.rejected();</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="73405804-7c7c-444b-9ba0-9104e709241c" class="list-group-item test failed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              测试sioeye为null的情况
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#73405804-7c7c-444b-9ba0-9104e709241c > .test-code.collapse">Code</button>
+              <span class="test-duration ">1 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+            <p class="test-error-message">TypeError: Cannot read property &#x27;trim&#x27; of null
+              <button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#73405804-7c7c-444b-9ba0-9104e709241c > .test-error-stack.collapse">Stack</button>
+            </p>
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">return</span> usercontroller.sioeye_login(<span class="hljs-literal">null</span>).should.be.rejected();</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+          <div class="test-error-stack collapse">
+            <pre><code class="hljs small"><span class="hljs-built_in">TypeError</span>: Cannot read property <span class="hljs-string">'trim'</span> <span class="hljs-keyword">of</span> <span class="hljs-literal">null</span><br>    at <span class="hljs-built_in">Object</span>.module.exports.sioeye_login (E:\ck\src\tests\unittest-demo\appserver_sample\controller\usercontroller.js:<span class="hljs-number">9</span>:<span class="hljs-number">47</span>)<br>    at Context.&lt;anonymous&gt; (controllertest\usercontroller_improved.test.js:<span class="hljs-number">28</span>:<span class="hljs-number">35</span>)</code></pre>
+          </div>
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+              <section class="suite-wrap">
+          <div id="566400fd-03fe-4233-89a8-de661e54b0b9" class="suite has-tests has-passed">
+            <h3 class="suite-title">sioyeid_login</h3>
+            <h5 class="suite-filename">\controllertest\usercontroller_improved.test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="566400fd-03fe-4233-89a8-de661e54b0b9" class="suite-chart" width="50" height="50" data-total-passes="1" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">1 ms</li>
+                <li class="suite-summary-item tests">1</li>
+                <li class="suite-summary-item passed">1</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#566400fd-03fe-4233-89a8-de661e54b0b9-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="566400fd-03fe-4233-89a8-de661e54b0b9-test-list" class="list-group test-list collapse in">
+                    <div id="a2c743ff-567a-46e7-84c9-eb13e67dfd3f" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              测试sioeye存在的情况
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#a2c743ff-567a-46e7-84c9-eb13e67dfd3f > .test-code.collapse">Code</button>
+              <span class="test-duration fast">1 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">return</span> usercontroller.sioeye_login(<span class="hljs-string">'jack'</span>).should.not.be.rejected();</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+        
+          </div>
+        </section>
+            <section class="suite-wrap">
+          <div id="39cdef04-6ec6-46dd-9c6c-b7a880b1fa8b" class="suite has-suites">
+            <h3 class="suite-title">usercontroller</h3>
+            <h5 class="suite-filename">\controllertest\usercontroller.test.js</h5>
+        
+              <section class="suite-wrap">
+          <div id="9e4135dc-cf60-4744-ae9e-d6dd022285ae" class="suite has-tests has-passed">
+            <h3 class="suite-title">sioyeid_login</h3>
+            <h5 class="suite-filename">\controllertest\usercontroller.test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="9e4135dc-cf60-4744-ae9e-d6dd022285ae" class="suite-chart" width="50" height="50" data-total-passes="1" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">1 ms</li>
+                <li class="suite-summary-item tests">1</li>
+                <li class="suite-summary-item passed">1</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#9e4135dc-cf60-4744-ae9e-d6dd022285ae-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="9e4135dc-cf60-4744-ae9e-d6dd022285ae-test-list" class="list-group test-list collapse in">
+                    <div id="b2d05425-1e46-440e-b544-9fa6186f340c" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              测试sioeye不存在的情况
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#b2d05425-1e46-440e-b544-9fa6186f340c > .test-code.collapse">Code</button>
+              <span class="test-duration fast">1 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">return</span> usercontroller.sioeye_login(<span class="hljs-string">'jack78979798'</span>).should.be.rejectedWith(<span class="hljs-built_in">Error</span>);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+              <section class="suite-wrap">
+          <div id="91e0c038-2ca6-4734-8bc8-56634fa15d10" class="suite has-tests has-passed">
+            <h3 class="suite-title">sioyeid_login</h3>
+            <h5 class="suite-filename">\controllertest\usercontroller.test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="91e0c038-2ca6-4734-8bc8-56634fa15d10" class="suite-chart" width="50" height="50" data-total-passes="1" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">0 ms</li>
+                <li class="suite-summary-item tests">1</li>
+                <li class="suite-summary-item passed">1</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#91e0c038-2ca6-4734-8bc8-56634fa15d10-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="91e0c038-2ca6-4734-8bc8-56634fa15d10-test-list" class="list-group test-list collapse in">
+                    <div id="ec9582b6-84ab-4b10-9fcf-218092ffd29b" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              测试sioeye存在的情况
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#ec9582b6-84ab-4b10-9fcf-218092ffd29b > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">return</span> usercontroller.sioeye_login(<span class="hljs-string">'jack'</span>).should.not.be.rejected();</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+              <section class="suite-wrap">
+          <div id="00963d08-40f0-4449-b70d-a9dcbfd36045" class="suite has-tests has-passed">
+            <h3 class="suite-title">sioyeid_login</h3>
+            <h5 class="suite-filename">\controllertest\usercontroller.test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="00963d08-40f0-4449-b70d-a9dcbfd36045" class="suite-chart" width="50" height="50" data-total-passes="1" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">1 ms</li>
+                <li class="suite-summary-item tests">1</li>
+                <li class="suite-summary-item passed">1</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#00963d08-40f0-4449-b70d-a9dcbfd36045-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="00963d08-40f0-4449-b70d-a9dcbfd36045-test-list" class="list-group test-list collapse in">
+                    <div id="0718f286-d64d-494d-914d-4c742fa4e4e4" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              测试sioeye为空字符串的情况
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#0718f286-d64d-494d-914d-4c742fa4e4e4 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">1 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">return</span> usercontroller.sioeye_login(<span class="hljs-string">''</span>).should.be.rejected();</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+              <section class="suite-wrap">
+          <div id="c2e0cccb-e455-4dc6-9a0c-c3b422e81969" class="suite has-tests has-failed">
+            <h3 class="suite-title">sioyeid_login</h3>
+            <h5 class="suite-filename">\controllertest\usercontroller.test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="c2e0cccb-e455-4dc6-9a0c-c3b422e81969" class="suite-chart" width="50" height="50" data-total-passes="0" data-total-failures="1" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">0 ms</li>
+                <li class="suite-summary-item tests">1</li>
+                <li class="suite-summary-item passed">0</li>
+                <li class="suite-summary-item failed">1</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#c2e0cccb-e455-4dc6-9a0c-c3b422e81969-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="c2e0cccb-e455-4dc6-9a0c-c3b422e81969-test-list" class="list-group test-list collapse in">
+                    <div id="0fc2e93e-d31e-4424-a8c6-b694b8445501" class="list-group-item test failed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              测试sioeye为null的情况
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#0fc2e93e-d31e-4424-a8c6-b694b8445501 > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+            <p class="test-error-message">TypeError: Cannot read property &#x27;trim&#x27; of null
+              <button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#0fc2e93e-d31e-4424-a8c6-b694b8445501 > .test-error-stack.collapse">Stack</button>
+            </p>
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">return</span> usercontroller.sioeye_login(<span class="hljs-literal">null</span>).should.be.rejected();</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+          <div class="test-error-stack collapse">
+            <pre><code class="hljs small"><span class="hljs-built_in">TypeError</span>: Cannot read property <span class="hljs-string">'trim'</span> <span class="hljs-keyword">of</span> <span class="hljs-literal">null</span><br>    at <span class="hljs-built_in">Object</span>.module.exports.sioeye_login (E:\ck\src\tests\unittest-demo\appserver_sample\controller\usercontroller.js:<span class="hljs-number">9</span>:<span class="hljs-number">47</span>)<br>    at Context.&lt;anonymous&gt; (controllertest\usercontroller.test.js:<span class="hljs-number">72</span>:<span class="hljs-number">35</span>)</code></pre>
+          </div>
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+        
+          </div>
+        </section>
+            <section class="suite-wrap">
+          <div id="562b3e84-f2ce-475e-821e-a3af53de2225" class="suite has-suites">
+            <h3 class="suite-title">userdao</h3>
+            <h5 class="suite-filename">\daotest\userdao.test.js</h5>
+        
+              <section class="suite-wrap">
+          <div id="586ecf6a-ecfe-4032-bd03-a515333a5347" class="suite has-tests has-passed">
+            <h3 class="suite-title">sieyeid_login</h3>
+            <h5 class="suite-filename">\daotest\userdao.test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="586ecf6a-ecfe-4032-bd03-a515333a5347" class="suite-chart" width="50" height="50" data-total-passes="4" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">87 ms</li>
+                <li class="suite-summary-item tests">4</li>
+                <li class="suite-summary-item passed">4</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#586ecf6a-ecfe-4032-bd03-a515333a5347-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="586ecf6a-ecfe-4032-bd03-a515333a5347-test-list" class="list-group test-list collapse in">
+                    <div id="2e9b0ed6-eb82-43da-8bd3-3c61771f30fb" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              测试sioeye不存在的情况
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#2e9b0ed6-eb82-43da-8bd3-3c61771f30fb > .test-code.collapse">Code</button>
+              <span class="test-duration medium">48 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">return</span> lib.sioeye_login(<span class="hljs-string">'jack78979798'</span>).should.be.rejectedWith(<span class="hljs-built_in">Error</span>);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="0433c345-1ef8-49ec-8824-d1ba38bf15b2" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              测试sioeye存在的情况
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#0433c345-1ef8-49ec-8824-d1ba38bf15b2 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">24 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">return</span> lib.sioeye_login(<span class="hljs-string">'jack'</span>).should.not.be.rejected();</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="985e9e21-a956-4d44-bd67-46d5617bb073" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              测试sioeye为空字符串的情况
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#985e9e21-a956-4d44-bd67-46d5617bb073 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">10 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">return</span> (lib.sioeye_login(<span class="hljs-string">''</span>)).should.be.rejected();</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="502aed1d-9c5a-4d3a-9135-80999d9abd7f" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              测试sioeye为null的情况
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#502aed1d-9c5a-4d3a-9135-80999d9abd7f > .test-code.collapse">Code</button>
+              <span class="test-duration fast">5 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">return</span> (lib.sioeye_login(<span class="hljs-literal">null</span>)).should.be.rejected();</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+              <section class="suite-wrap">
+          <div id="c416497d-9b9a-43ef-999a-ca80c0f09a37" class="suite has-tests has-passed">
+            <h3 class="suite-title">Promise</h3>
+            <h5 class="suite-filename">\daotest\userdao.test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="c416497d-9b9a-43ef-999a-ca80c0f09a37" class="suite-chart" width="50" height="50" data-total-passes="2" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">5.0 s</li>
+                <li class="suite-summary-item tests">2</li>
+                <li class="suite-summary-item passed">2</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#c416497d-9b9a-43ef-999a-ca80c0f09a37-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="c416497d-9b9a-43ef-999a-ca80c0f09a37-test-list" class="list-group test-list collapse in">
+                    <div id="c26799a1-cbd7-4a89-8873-f41462806959" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              failedPromise
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#c26799a1-cbd7-4a89-8873-f41462806959 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">lib.failedPromise().should.be.rejectedWith({ message: <span class="hljs-string">'boom'</span> });</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="15195a6c-8718-412d-87b1-8701768cef33" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              asyncFailedPromise
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#15195a6c-8718-412d-87b1-8701768cef33 > .test-code.collapse">Code</button>
+              <span class="test-duration slow">5.0 s</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">10000</span>);<br>lib.asyncFailedPromise(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">result</span>) </span>{<br>    done();<br>}).should.be.rejectedWith({ message: <span class="hljs-string">'boom'</span> })</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+        
+          </div>
+        </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>Report generated by <a href="http://adamgruber.github.io/mochawesome/" target="_blank">mochawesome</a>.<br>Designed and built by <a href="https://github.com/adamgruber" target="_blank">adamgruber</a>. &copy;2017.</p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/vendor.js"></script>
+    <script src="js/mochawesome.js"></script>
+  </body>
+</html>
