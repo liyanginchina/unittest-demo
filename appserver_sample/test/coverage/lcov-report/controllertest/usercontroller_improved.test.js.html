@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Code coverage report for daotest\userdao.test.js</title>
+    <title>Code coverage report for controllertest\usercontroller_improved.test.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../prettify.css" />
     <link rel="stylesheet" href="../base.css" />
@@ -16,13 +16,13 @@
 <div class='wrapper'>
   <div class='pad1'>
     <h1>
-      <a href="../index.html">all files</a> / <a href="index.html">daotest/</a> userdao.test.js
+      <a href="../index.html">all files</a> / <a href="index.html">controllertest/</a> usercontroller_improved.test.js
     </h1>
     <div class='clearfix'>
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
         <span class="quiet">Statements</span>
-        <span class='fraction'>19/19</span>
+        <span class='fraction'>28/28</span>
       </div>
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
@@ -32,12 +32,12 @@
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
         <span class="quiet">Functions</span>
-        <span class='fraction'>10/10</span>
+        <span class='fraction'>15/15</span>
       </div>
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
         <span class="quiet">Lines</span>
-        <span class='fraction'>19/19</span>
+        <span class='fraction'>28/28</span>
       </div>
     </div>
   </div>
@@ -78,76 +78,127 @@
 33
 34
 35
-36</td><td class="line-coverage quiet"><span class="cline-any cline-yes">1×</span>
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53</td><td class="line-coverage quiet"><span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">3×</span>
+<span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">var lib = require('../../dao/userdao');
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">3×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">var usercontroller = require('../../controller/usercontroller');
+var userdao = require('../../dao/userdao');
 var should = require("should");
+var muk = require("muk");
 &nbsp;
-describe('userdao', function() {  
-    describe('sieyeid_login', function() {
-        it('测试sioeye不存在的情况', function() {
-            return lib.sioeye_login('jack78979798').should.be.rejectedWith(Error);
+var Promise = require('bluebird');
+&nbsp;
+//console.log(lib.sioeye_login('jack78979798'));
+describe('usercontroller', function () {
+    describe('sioyeid_login', function () {
+        beforeEach(function () {
+            muk(userdao, 'sioeye_login', function () {
+                return new Promise(function (resolve, reject) {
+                    reject(new Error('mock wrong'));
+                })
+            });
         });
 &nbsp;
-        it('测试sioeye存在的情况', function() {
-            return lib.sioeye_login('jack').should.not.be.rejected();
+        it('测试sioeye不存在的情况', function () {
+            return usercontroller.sioeye_login('jack78979798').should.be.rejectedWith(Error);
         });
 &nbsp;
-        it('测试sioeye为空字符串的情况', function() {
-            return (lib.sioeye_login('')).should.be.rejected();
+        it('测试sioeye为空字符串的情况', function () {
+            return usercontroller.sioeye_login('').should.be.rejected();
         });
 &nbsp;
-        it('测试sioeye为null的情况', function() {
-            return (lib.sioeye_login(null)).should.be.rejected();
+        it('测试sioeye为null的情况', function () {
+            return usercontroller.sioeye_login(null).should.be.rejected();
         });
+&nbsp;
+        afterEach(function () {
+            muk.restore();
+        });
+&nbsp;
     });
 &nbsp;
-    describe('Promise', function() {
-        it('failedPromise', function() {
-            lib.failedPromise().should.be.rejectedWith({ message: 'boom' });
+    describe('sioyeid_login', function () {
+        before(function () {
+            muk(userdao, 'sioeye_login', function () {
+                return new Promise(function (resolve, reject) {
+                    resolve([1]);
+                })
+            });
         });
 &nbsp;
-        it('asyncFailedPromise', function(done) {
-            this.timeout(10000);
-            lib.asyncFailedPromise(function(result) {
-                done();
-            }).should.be.rejectedWith({ message: 'boom' })
+        it('测试sioeye存在的情况', function () {
+            return usercontroller.sioeye_login('jack').should.not.be.rejected();
+        });
+        after(function () {
+            muk.restore();
         });
     });
-&nbsp;
 });</pre></td></tr>
 </table></pre>
 <div class='push'></div><!-- for sticky footer -->
