@@ -1,4 +1,4 @@
-FROM node:4.4.2
+FROM  hub.c.163.com/liyanginchina/centos-nodejs:latest
 
 # Create app directory
 RUN mkdir -p /usr/src/app
@@ -15,5 +15,5 @@ RUN pm2 dump
 COPY . /usr/src/app/
 
 EXPOSE 3000
-#CMD [ "npm", "start" ]
-CMD ["pm2", "start", "/usr/src/app/package.json", "--no-daemon"]
+CMD [ "npm", "test" ]
+#CMD ["pm2", "start", "/usr/src/app/package.json", "--no-daemon"]
